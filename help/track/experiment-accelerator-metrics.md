@@ -56,6 +56,6 @@ Sono disponibili le metriche seguenti:
 
 * **[!UICONTROL Incremento]**: misura del miglioramento percentuale del tasso di conversione di un determinato trattamento rispetto al basale.
 
-* **[!UICONTROL Affidabilità]**: prova che un determinato trattamento è uguale al trattamento basale. [Ulteriori informazioni](http://experienceleague.adobe.com/it/docs/journey-optimizer/using/content-management/content-experiment/technotes/experiment-calculations)
+* **[!UICONTROL Affidabilità]**: prova che un determinato trattamento è uguale al trattamento basale. [Ulteriori informazioni](http://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/technotes/experiment-calculations)
 
 * **[!UICONTROL Contributo]**: proporzione della modifica complessiva della metrica che può essere attribuita a un esperimento o a un trattamento specifico, consentendo l&#39;identificazione delle iniziative che esercitano il maggiore impatto relativo.

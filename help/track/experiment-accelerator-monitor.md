@@ -78,7 +78,7 @@ Tieni presente che per generare [approfondimenti esperimento](#insights) devi co
 
    Tieni presente che lo screenshot deve acquisire l’intera pagina.
 
-1. Se necessario, fai clic sull&#39;icona ![](assets/do-not-localize/Smock_Edit_18_N.svg) per aggiornare l&#39;ipotesi **[!UICONTROL 2&rbrace;.]**
+1. Se necessario, fai clic sull&#39;icona ![](assets/do-not-localize/Smock_Edit_18_N.svg) per aggiornare l&#39;ipotesi **[!UICONTROL 2}.]**
 
 Una volta completata la configurazione di **[!UICONTROL Ipotesi]**, potrai ottenere [Informazioni](#insights) e [Opportunità](#opportunities) preziose.
 
@@ -145,7 +145,7 @@ Tieni presente che per generare opportunità di esperimento devi prima [conferma
 
    Per gli esperimenti provenienti da **[!DNL Adobe Target]**, le modifiche suggerite verranno invece caricate nel flusso di lavoro di sperimentazione di **[!DNL Adobe Target]**.
 
-   ➡️ [Ulteriori informazioni nella documentazione di Adobe Target](https://experienceleague.adobe.com/it/docs/target/using/activities/abtest/test-ab)
+   ➡️ [Ulteriori informazioni nella documentazione di Adobe Target](https://experienceleague.adobe.com/en/docs/target/using/activities/abtest/test-ab)
 
 1. Nella vista dell&#39;esperimento sono accessibili le stesse **[!UICONTROL opportunità di sperimentazione]** di IA emerse da Journey Optimizer Experimentation Accelerator.
 
@@ -167,7 +167,7 @@ La tabella **[!UICONTROL Risultati]** fornisce una suddivisione dettagliata dell
 
 * **[!UICONTROL Incremento]**: misura del miglioramento percentuale del tasso di conversione di un determinato trattamento rispetto al basale.
 
-* **[!UICONTROL Affidabilità]**: prova che un determinato trattamento è uguale al trattamento basale. [Ulteriori informazioni](http://experienceleague.adobe.com/it/docs/journey-optimizer/using/content-management/content-experiment/technotes/experiment-calculations)
+* **[!UICONTROL Affidabilità]**: prova che un determinato trattamento è uguale al trattamento basale. [Ulteriori informazioni](http://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/technotes/experiment-calculations)
 
 * **[!UICONTROL Tasso di conversione]**: percentuale di profili che hanno completato l&#39;azione desiderata (ad esempio, acquisto, iscrizione) dopo aver visto il trattamento.
 
