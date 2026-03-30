@@ -9,7 +9,7 @@ level: Beginner
 keywords: contenuto, esperimento, multiplo, pubblico, trattamento
 source-git-commit: 83cc6dccc20323efc96a09ee1bfda0aa38e52009
 workflow-type: ht
-source-wordcount: '205'
+source-wordcount: '211'
 ht-degree: 100%
 
 ---
