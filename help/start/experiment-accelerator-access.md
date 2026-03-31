@@ -2,21 +2,21 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Journey Optimizer Experimentation Accelerator
-description: Migliora la tua capacità di condurre esperimenti in modo efficace e generare informazioni
+description: Migliora la tua capacità di condurre esperimenti in modo efficace e generare insight
 topic: Content Management
 role: User
 level: Beginner
 keywords: contenuto, esperimento, multiplo, pubblico, trattamento
-source-git-commit: b85ae521647894c7dcc77f8f192d9bea650a07dc
+source-git-commit: 4f30411591ab3bec4b749cfb58f437ddb3474ffa
 workflow-type: tm+mt
-source-wordcount: '304'
-ht-degree: 20%
+source-wordcount: '507'
+ht-degree: 18%
 
 ---
 
 # Accedere a Journey Optimizer Experimentation Accelerator
 
-Dopo [aver creato e configurato l&#39;esperimento](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/content-management/content-experiment/content-experiment) e aver inviato le campagne o i percorsi ai profili, puoi accedere a **[!UICONTROL Journey Optimizer Experimentation Accelerator]** per approfondire le prestazioni dell&#39;esperimento.
+Dopo [aver creato e configurato l&#39;esperimento](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/content-experiment) e aver inviato le campagne o i percorsi ai profili, puoi accedere a **[!UICONTROL Journey Optimizer Experimentation Accelerator]** per approfondire le prestazioni dell&#39;esperimento.
 
 Puoi accedere a **[!UICONTROL Journey Optimizer Experimentation Accelerator]** dal menu a sinistra dal menu a discesa [!UICONTROL Sperimentazione] o tramite il selettore App. Gli utenti con una sola licenza di Target possono accedervi solo tramite il selettore App.
 
@@ -35,7 +35,7 @@ Per utilizzare **[!UICONTROL Journey Optimizer Experimentation Accelerator]**, �
 * **[!UICONTROL Visualizza esperimenti]**
 * **[!UICONTROL Gestisci Metada esperimento]**
 
-+++ Scopri come assegnare le autorizzazioni relative all’esperimento
++++ Scopri come assegnare le autorizzazioni relative a Experience con una licenza di Adobe Experience Platform o Adobe Percorsi Optimizer
 
 1. Nel prodotto **[!DNL Permissions]**, vai alla scheda **[!UICONTROL Ruoli]** e seleziona il **[!UICONTROL Ruolo]** desiderato.
 
@@ -58,6 +58,48 @@ Per assegnare questo ruolo ai nuovi utenti:
    Se l&#39;utente non è stato creato in precedenza, consulta [questa documentazione](https://experienceleague.adobe.com/it/docs/experience-platform/access-control/abac/permissions-ui/users).
 
 L’utente riceverà un’e-mail con istruzioni per accedere all’istanza.
+
++++
+
+</br>
+
++++ Scopri come assegnare le autorizzazioni relative all’esperimento con la licenza di Adobe Target
+
+1. Apri **[Admin Console](http://adminconsole.adobe.com/)**.
+
+1. In **[!UICONTROL Prodotti]** scegliere **[!UICONTROL Adobe Experience Platform]**.
+
+1. Fare clic su **[!UICONTROL Nuovo profilo]**.
+
+   ![](assets/permission-target.png)
+
+1. Immetti **[!UICONTROL Nome]** e **[!UICONTROL Descrizione]** per il profilo, quindi fai clic su **[!UICONTROL Salva]**.
+
+1. Apri il **[!UICONTROL profilo]** appena creato e passa alla scheda **[!UICONTROL Autorizzazioni]**.
+
+1. Fai clic su ![](assets/do-not-localize/Smock_Edit_18_N.svg) accanto all&#39;autorizzazione **[!UICONTROL experiment-accelerator]**.
+
+   ![](assets/permission-target-1.png)
+
+1. Aggiungi le autorizzazioni che questo profilo deve avere, ad esempio **[!UICONTROL Visualizza esperimenti]** e **[!UICONTROL Gestisci metadati esperimenti]**, quindi fai clic su **[!UICONTROL Salva]**.
+
+   >[!TIP]
+   >
+   > Crea profili separati quando gli utenti necessitano di livelli di accesso diversi. Ad esempio, crea un profilo **[!UICONTROL Experimentation Accelerator Viewer]** con solo **[!UICONTROL Visualizza esperimenti]** e un profilo **[!UICONTROL Experimentation Accelerator Editor]** con entrambi **[!UICONTROL Visualizza esperimenti]** e **[!UICONTROL Gestisci metadati esperimenti]**.
+
+   ![](assets/permission-target-2.png)
+
+1. Dalla scheda **[!UICONTROL Autorizzazioni]**, seleziona **[!UICONTROL Sandbox]**.
+
+1. Aggiungi le sandbox in cui gli utenti dovrebbero poter utilizzare Journey Optimizer Experimentation Accelerator, quindi fai clic su **[!UICONTROL Salva]**.
+
+1. Apri la scheda **[!UICONTROL Utenti]**, quindi fai clic su **[!UICONTROL Aggiungi utenti]**.
+
+   ![](assets/permission-target-3.png)
+
+1. Aggiungi gli utenti che devono ricevere questo accesso, quindi fai clic su **[!UICONTROL Salva]**.
+
+Gli utenti aggiunti a questo profilo ora possono accedere a Journey Optimizer Experimentation Accelerator dal commutatore dell’app.
 
 +++
 
