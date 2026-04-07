@@ -2,15 +2,15 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Best practice per Journey Optimizer Experimentation Accelerator
-description: Migliora la tua capacità di condurre esperimenti in modo efficace e generare informazioni
+description: Migliora la tua capacità di condurre esperimenti in modo efficace e generare insight
 topic: Content Management
 role: User
 level: Beginner
 keywords: contenuto, esperimento, multiplo, pubblico, trattamento
-source-git-commit: c52010f196f46d234066fd34ae8e9c0be7d2148b
+source-git-commit: 020ed6c652c66ed78789a5a90dfc8c8dece624a9
 workflow-type: tm+mt
-source-wordcount: '742'
-ht-degree: 2%
+source-wordcount: '743'
+ht-degree: 6%
 
 ---
 
@@ -85,11 +85,11 @@ Esempio: _Si ritiene che la modifica di X determinerà un aumento di Y a causa d
 Un buon esperimento non produce solo una vittoria, produce un apprendimento chiaro e actionable.
 Ecco cosa cercare:
 
-&check; **Affidabilità statistica**: è improbabile che la differenza tra le varianti sia dovuta al caso.
-&check; **Allineamento con obiettivi**: la metrica principale riflette i progressi significativi verso un obiettivo aziendale.
-&check; **Impatto secondario**: nessun effetto collaterale negativo significativo sulle metriche correlate.
-&check; **Scalabilità**: il risultato può informare decisioni future o essere generalizzato in altre aree.
-&check; **Chiarezza**: la causa del risultato è ragionevolmente isolata e compresa.
+&amp;check; **Affidabilità statistica**: è improbabile che la differenza tra le varianti sia dovuta al caso.
+&amp;check; **Allineamento con obiettivi**: la metrica principale riflette l&#39;avanzamento significativo verso un obiettivo aziendale.
+&amp;check; **Impatto secondario**: nessun effetto collaterale negativo significativo sulle metriche correlate.
+&amp;check; **Scalabilità**: il risultato può informare le decisioni future o essere generalizzato in altre aree.
+&amp;check; **Chiarezza**: la causa del risultato è ragionevolmente isolata e compresa.
 
 La sperimentazione non consiste solo nel trovare la versione &quot;migliore&quot;, ma nel costruire la conoscenza attraverso test e iterazioni. Se eseguiti correttamente, gli esperimenti rivelano informazioni che guidano decisioni più intelligenti, esperienze utente migliori e risultati migliorati.
 

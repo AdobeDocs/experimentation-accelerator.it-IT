@@ -7,7 +7,7 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: contenuto, esperimento, multiplo, pubblico, trattamento
-source-git-commit: 4f30411591ab3bec4b749cfb58f437ddb3474ffa
+source-git-commit: 020ed6c652c66ed78789a5a90dfc8c8dece624a9
 workflow-type: tm+mt
 source-wordcount: '507'
 ht-degree: 18%
@@ -16,7 +16,7 @@ ht-degree: 18%
 
 # Accedere a Journey Optimizer Experimentation Accelerator
 
-Dopo [aver creato e configurato l&#39;esperimento](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/content-management/content-experiment/content-experiment) e aver inviato le campagne o i percorsi ai profili, puoi accedere a **[!UICONTROL Journey Optimizer Experimentation Accelerator]** per approfondire le prestazioni dell&#39;esperimento.
+Dopo [aver creato e configurato l&#39;esperimento](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/content-experiment) e aver inviato le campagne o i percorsi ai profili, puoi accedere a **[!UICONTROL Journey Optimizer Experimentation Accelerator]** per approfondire le prestazioni dell&#39;esperimento.
 
 Puoi accedere a **[!UICONTROL Journey Optimizer Experimentation Accelerator]** dal menu a sinistra dal menu a discesa [!UICONTROL Sperimentazione] o tramite il selettore App. Gli utenti con una sola licenza di Target possono accedervi solo tramite il selettore App.
 
@@ -104,11 +104,13 @@ Gli utenti aggiunti a questo profilo ora possono accedere a Journey Optimizer Ex
 +++
 
 
-<!--table style="table-layout:fixed"><tr style="border: 0;">
+<!--
+table style="table-layout:fixed"><tr style="border: 0;">
 <td><img alt="Overview" href="experiment-accelerator-overview.md" src="assets/do-not-localize/experiments-2.jpeg">
 <div align="center"><p><strong><a href="experiment-accelerator-overview.md">Overview</a></strong></p></div></td>
 <td><img alt="Experiments" href="experiment-accelerator-monitor.md" src="assets/do-not-localize/experiment-overview.jpeg">
 <div align="center"><p><strong><a href="experiment-accelerator-monitor.md">Experiments</a></strong></p></div></td>
 <td><img alt="Metrics" href="experiment-accelerator-metrics.md" src="assets/do-not-localize/experiment-metrics.png">
 <div align="center"><p><strong><a href="experiment-accelerator-metrics.md">Metrics</a></strong></p></div></td>
-</tr></table-->
+</tr></table
+-->
