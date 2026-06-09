@@ -8,27 +8,16 @@ role: User
 level: Beginner
 keywords: contenuto, esperimento, multiplo, pubblico, trattamento
 TQID: https://experienceleague.adobe.com/IYG2Jag2XtctyPaYmQfhdMm0Ac5tEg7EA7gOw7GzUk4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2:
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 659a4723ac8b7cbaf3ea06c34107bf876612ccb4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: c07dc7f896f9c65980339f4a7fc94123fa8afe71
 workflow-type: tm+mt
-source-wordcount: 1127
-ht-degree: 3%
+source-wordcount: 1367
+ht-degree: 2%
 
 ---
 
@@ -62,6 +51,7 @@ Per accedere e monitorare gli esperimenti, seleziona l&#39;esperimento configura
 La pagina dei dettagli dell’esperimento è suddivisa nella seguente sezione:
 
 * [Risultato esperimento](#experiment-outcome)
+* [Metrica primaria](#change-primary-metric)
 * [Ipotesi](#hypothesis)
 * [Dettagli](#details)
 * [Opportunità](#opportunities)
@@ -73,6 +63,42 @@ La pagina dei dettagli dell’esperimento è suddivisa nella seguente sezione:
 ![](assets/experiment-monitor-outcome.png)
 
 Il **[!UICONTROL Risultato esperimento]** ti offre una visualizzazione rapida della variante vincente nell&#39;esperimento.
+
+### Modificare la metrica principale {#change-primary-metric}
+
+>[!AVAILABILITY]
+>
+>Solo gli utenti con l&#39;autorizzazione **[!UICONTROL Gestione metadati esperimento]** possono modificare la metrica principale.
+
+La modifica della metrica primaria si applica ai team che utilizzano **[!DNL Customer Journey Analytics]** o **[!DNL Adobe Analytics]** come origine per la generazione di rapporti per gli esperimenti creati in **[!DNL Adobe Target]** o **[!DNL Adobe Journey Optimizer]**.
+
+Quando imposti o modifichi la metrica principale, tieni presente quanto segue:
+
+* Importi una metrica alla volta. La scelta viene memorizzata come metrica principale per tale esperimento.
+
+* Gli aggiornamenti sono validi solo in Journey Optimizer Experimentation Accelerator. Non vengono riscritti in Adobe Target o Adobe Journey Optimizer.
+
+* Se la tua organizzazione utilizza solo Adobe Target come origine per la generazione di rapporti, non puoi modificare la metrica principale dopo la pubblicazione del test.
+
+Per modificare la metrica principale di un esperimento esistente, effettua le seguenti operazioni:
+
+1. Dall&#39;esperimento, fai clic su **[!UICONTROL Seleziona metrica principale]** se non è stata assegnata alcuna metrica o su **[!UICONTROL Modifica]** se desideri modificarla.
+
+   ![](assets/primary-metric-1.png)
+
+1. Selezionare una metrica che corrisponda al set di origine per la generazione di rapporti quando l&#39;esperimento è stato creato in **[!DNL Adobe Target]** o **[!DNL Adobe Journey Optimizer]**.
+
+   Le metriche disponibili sono determinate dall&#39;origine dati configurata in **[!DNL Adobe Target]** o **[!DNL Adobe Journey Optimizer]**. Ad esempio, se **[!DNL Customer Journey Analytics]** (CJA) è stato selezionato come origine per la generazione di rapporti in Target, solo le metriche di CJA sono disponibili per l&#39;importazione. Non è possibile passare a una metrica da un&#39;origine dati diversa né modificare la metrica principale in una metrica nativa **[!DNL Adobe Target]**.
+
+1. Utilizza la ricerca per trovare una metrica per nome oppure il filtro per visualizzare le metriche già utilizzate in esperimenti attivi.
+
+   ![](assets/primary-metric-1.png)
+
+1. Salva la selezione.
+
+Quando modifichi la metrica principale, le informazioni e le opportunità generate in precedenza vengono cancellate e rigenerate. Durante la rigenerazione, viene visualizzato il seguente messaggio:
+
+`Opportunities are being regenerated based on the selected metric. Updates will appear soon.`
 
 ### Configura {#set-up}
 
@@ -96,7 +122,7 @@ Tieni presente che per generare [approfondimenti esperimento](#insights) devi co
 
    Tieni presente che lo screenshot deve acquisire l’intera pagina.
 
-1. Se necessario, fai clic sull&#39;icona ![](assets/do-not-localize/Smock_Edit_18_N.svg) per aggiornare l&#39;ipotesi **[!UICONTROL 2&rbrace;.]**
+1. Se necessario, fai clic sull&#39;icona ![](assets/do-not-localize/Smock_Edit_18_N.svg) per aggiornare l&#39;ipotesi **[!UICONTROL 2}.]**
 
 Una volta completata la configurazione di **[!UICONTROL Ipotesi]**, potrai ottenere [Informazioni](#insights) e [Opportunità](#opportunities) preziose.
 
@@ -163,7 +189,7 @@ Tieni presente che per generare opportunità di esperimento devi prima [conferma
 
    Per gli esperimenti provenienti da **[!DNL Adobe Target]**, le modifiche suggerite verranno invece caricate nel flusso di lavoro di sperimentazione di **[!DNL Adobe Target]**.
 
-   ➡️ [Ulteriori informazioni nella documentazione di Adobe Target](https://experienceleague.adobe.com/it/docs/target/using/activities/abtest/test-ab)
+   ➡️ [Ulteriori informazioni nella documentazione di Adobe Target](https://experienceleague.adobe.com/en/docs/target/using/activities/abtest/test-ab)
 
 1. Nella vista dell&#39;esperimento sono accessibili le stesse **[!UICONTROL opportunità di sperimentazione]** di IA emerse da Journey Optimizer Experimentation Accelerator.
 
@@ -185,7 +211,7 @@ La tabella **[!UICONTROL Risultati]** fornisce una suddivisione dettagliata dell
 
 * **[!UICONTROL Incremento]**: misura del miglioramento percentuale del tasso di conversione di un determinato trattamento rispetto al basale.
 
-* **[!UICONTROL Affidabilità]**: prova che un determinato trattamento è uguale al trattamento basale. [Ulteriori informazioni](http://experienceleague.adobe.com/it/docs/journey-optimizer/using/content-management/content-experiment/technotes/experiment-calculations)
+* **[!UICONTROL Affidabilità]**: prova che un determinato trattamento è uguale al trattamento basale. [Ulteriori informazioni](http://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/technotes/experiment-calculations)
 
 * **[!UICONTROL Tasso di conversione]**: percentuale di profili che hanno completato l&#39;azione desiderata (ad esempio, acquisto, iscrizione) dopo aver visto il trattamento.
 
